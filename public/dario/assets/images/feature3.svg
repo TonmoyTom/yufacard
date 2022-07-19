@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="89" height="90" viewBox="0 0 89 90">
+    <defs>
+        <rect id="b" width="45" height="45" y="12" rx="8"/>
+        <filter id="a" width="271.1%" height="271.1%" x="-85.6%" y="-61.1%" filterUnits="objectBoundingBox">
+            <feOffset dy="11" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="11"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.971071105 0 0 0 0 0.493105457 0 0 0 0 0.0903902886 0 0 0 0.511180933 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g transform="translate(22)">
+            <use fill="#000" filter="url(#a)" xlink:href="#b"/>
+            <use fill="#FF8400" xlink:href="#b"/>
+        </g>
+        <g fill-rule="nonzero">
+            <path fill="#FEA342" d="M76 25c0 11.046-8.954 20-20 20s-20-8.954-20-20S44.954 5 56 5s20 8.954 20 20z"/>
+            <path fill="#FFF" d="M51 15h15v15H51z"/>
+            <path fill="#FFF" d="M46 20h15v15H46z"/>
+            <path fill="#F67533" d="M56 0C42.193 0 31 11.193 31 25s11.193 25 25 25 25-11.193 25-25C80.985 11.2 69.8.015 56 0zm0 48.333c-12.887 0-23.333-10.446-23.333-23.333C32.667 12.113 43.113 1.667 56 1.667c12.887 0 23.333 10.446 23.333 23.333C79.32 37.88 68.88 48.319 56 48.333z"/>
+            <path fill="#000" d="M66 14.167H51a.833.833 0 0 0-.833.833v4.167H46a.833.833 0 0 0-.833.833v15c0 .46.373.833.833.833h15c.46 0 .833-.373.833-.833v-4.167H66c.46 0 .833-.373.833-.833V15a.833.833 0 0 0-.833-.833zm-5.833 20H46.833V20.833h13.334v13.334zm5-5h-3.334V20a.833.833 0 0 0-.833-.833h-9.167v-3.334h13.334v13.334z"/>
+        </g>
+    </g>
+</svg>
